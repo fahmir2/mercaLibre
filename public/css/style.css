@@ -6,6 +6,10 @@ body{
     font-size: 12px
 }
 
+.footerDiv{
+    text-align: center;
+}
+
 h1 {
     font-size: 24px;
 }
@@ -26,6 +30,8 @@ h1 {
     text-align: center;
     color: white;
     background-color: blue;
-    width: 10%;
+    width: 2%;
     align-content: center;
+    padding: 10px;
+    border-radius: 5px;
 }
