@@ -2,44 +2,56 @@
 <html>
   <head>
     <title>MercadoLibre DH</title>
-    <meta name="viewport" content="with=device-with initial-scale=1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
   </head>
   <body>
-    <header><img width="800x" src="/img/logo-mercado-liebre.svg"></img></header>
-    <p>Lugar para poner una barra de busqueda</p>
+    <header><img width="200x" src="/img/logo-mercado-liebre.svg"></img></header>
+    <input type="text" placeholder="Buscar..">
     <p>Compra en cuotas y con tarjeta de credito</p>
-    <ul>
-        <li>Ofertas</li>
-        <li>Tiendas oficiales</li>
-        <li>Vender</li>
-        <li>Ayuda</li>
-        <li>Crea tu cuenta</li>
-        <li>Ingresa</li>
-        <li>Mis compras</li>
-    </ul>
-
-    <h2>Basado en tu ultima visita</h2>
-    <section>
-       <div>
-            <img width="500px" src="/img/img-cafetera-moulinex.jpg"/>
-            <h3>$6.770</h3>
-            <h3>40% OFF</h3>
-            <h3>Cafetera Moulinex</h3>
-       </div>
-       <div>
-            <img width="500px" src="/img/img-macbook-pro-2019.jpg"/>
-            <h3>$230.000</h3>
-            <h3>20% OFF</h3>
-            <h3>MacBook Pro 2019</h3>
-       </div>
-       <div>
-        <img width="500px" src="/img/img-tv-samsung-smart.jpg"/>
-        <h3>$23.000</h3>
-        <h3>5% OFF</h3>
-        <h3>SmartTv Samsung 43"</h3>
-   </div> 
-    </section>
+    <nav>
+      <ul>
+          <li>Ofertas</li>
+          <li>Tiendas oficiales</li>
+          <li>Vender</li>
+          <li>Ayuda</li>
+      </ul>
+      <ul>
+          <li>Crea tu cuenta <i class="fa-regular fa-alicorn"></i></li>
+          <li>Ingresa</li>
+          <li>Mis compras</li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <i class="fas fa-bars"></i>
+      </div>
+    <h1>Basado en tu ultima visita</h1>
+    <main>
+      <section>
+        <div>
+              <img width="500px" src="/img/img-cafetera-moulinex.jpg"/>
+              <h3 class="precio">$6.770</h3>
+              <h3 class="descuento">40% OFF</h3>
+              <h3 class="descripcion">Cafetera Moulinex</h3>
+        </div>
+        <div>
+              <img width="500px" src="/img/img-macbook-pro-2019.jpg"/>
+              <h3 class="precio">$230.000</h3>
+              <h3 class="descuento">20% OFF</h3>
+              <h3 class="descripcion">MacBook Pro 2019</h3>
+        </div>
+        <div>
+          <img width="500px" src="/img/img-tv-samsung-smart.jpg"/>
+          <h3 class="precio">$23.000</h3>
+          <h3 class="descuento">5% OFF</h3>
+          <h3 class="descripcion">SmartTv Samsung 43"</h3>
+        </div> 
+      </section>
+    </main>
     <footer>
         <h3>Pagá con tarjeta o en efectivo</h3>
         <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
